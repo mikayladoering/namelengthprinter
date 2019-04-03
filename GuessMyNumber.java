@@ -5,21 +5,21 @@
 import java.util.*;
 public class GuessMyNumber {
     public static void main(String[] args) {
-        int count = 15;
-        int guess = 0;
+        int jaydenIsAwesome = 15;
+        int jaydenIsIncredible = 0;
        
         Scanner input = new Scanner(System.in);  
-        for(int Ailo = 2; Ailo > -1; Ailo--) {
+        for(int jaydenIsCool = 2; jaydenIsCool > -1; jaydenIsCool--) {
             System.out.println("Pick a number between 1 and 30: ");
-            guess = input.nextInt();
+            jaydenIsIncredible = input.nextInt();
            
-            if (guess < count){
-                System.out.println(" Sorry, your guess is too low. You have "+Ailo+" guesses left. ");
+            if (jaydenIsIncredible < jaydenIsAwesome){
+                System.out.println(" Sorry, your guess is too low. You have "+ jaydenIsCool+" guesses left. ");
             }
-            else if(guess > count){
-                System.out.println(" Sorry, your guess is too high. You have "+Ailo+" guesses left. ");
+            else if(jaydenIsIncredible > jaydenIsAwesome){
+                System.out.println(" Sorry, your guess is too high. You have "+jaydenIsCool+" guesses left. ");
             } else {
-             System.out.println(" Amazing! It was " + Ailo + ". You are a good guesser! ");
+             System.out.println(" Amazing! It was " + jaydenIsCool + ". You are a good guesser! ");
              break;
             }
      System.out.println("The game is now over. Thanks for playing.");
