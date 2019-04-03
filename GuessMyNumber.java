@@ -9,19 +9,20 @@ public class GuessMyNumber {
         int guess = 0;
        
         Scanner input = new Scanner(System.in);  
-        for(int texas = 2; texas > -1; texas--) {
+        for(int Ailo = 2; Ailo > -1; Ailo--) {
             System.out.println("Pick a number between 1 and 30: ");
             guess = input.nextInt();
            
             if (guess < count){
-                System.out.println(" Sorry, your guess is too low. You have "+texas+" guesses left. ");
+                System.out.println(" Sorry, your guess is too low. You have "+Ailo+" guesses left. ");
             }
             else if(guess > count){
-                System.out.println(" Sorry, your guess is too high. You have "+texas+" guesses left. ");
+                System.out.println(" Sorry, your guess is too high. You have "+Ailo+" guesses left. ");
             } else {
-             System.out.println(" Amazing! It was " + count + ". You are a good guesser! ");
+             System.out.println(" Amazing! It was " + Ailo + ". You are a good guesser! ");
              break;
             }
      System.out.println("The game is now over. Thanks for playing.");
      
        }
+        //I hope you have a good day
